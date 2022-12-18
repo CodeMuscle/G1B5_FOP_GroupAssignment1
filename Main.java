@@ -14,10 +14,10 @@ public class Main {
 		HrDepartment hr = new HrDepartment();
 
 		System.out.println(" Welcome to " + hr.departmentName());
-		System.out.println(hr.getTodaysWork());
-		System.out.println(hr.getWorkDeadline());
 		System.out.println(hr.doActivity());
-		System.out.println(hr.isTodayAHoliday());
+                System.out.println(hr.getTodaysWork());	
+                System.out.println(hr.getWorkDeadline());	
+                System.out.println(hr.isTodayAHoliday());
 
 		TechDepartment td = new TechDepartment();
 
